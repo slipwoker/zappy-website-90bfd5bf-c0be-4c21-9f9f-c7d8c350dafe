@@ -1,0 +1,47 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### בית
+https://example.com
+מחפשים עורך דין מנוסה שישמור על האינטרסים שלכם? משרד איתי חשאי מציע ייעוץ משפטי מקצועי, אמין ותוצאות מוכחות. צרו קשר עוד היום.
+
+### תחומי עיסוק
+https://example.com/practice-areas
+מנדל&quot;ן ועסקאות דירה בחדרה ועד ליווי משקיעים — גלו את מגוון תחומי העיסוק של משרד איתי חשאי ומצאו את המענה המשפטי המדויק לצורך שלכם.
+
+### אודות
+https://example.com/about
+איתי חשאי הוא עורך דין בעל ניסיון עשיר ומחויבות אישית לכל לקוח. גלו מה מייחד את המשרד, את הגישה המקצועית ואת הערכים שמנחים כל תיק משפטי.
+
+### צור קשר
+https://example.com/contact
+רוצים להתייעץ עם עורך דין נדל&quot;ן למשקיעים או לקבל ליווי בעסקת דירה בחדרה? השאירו פרטים עכשיו ונחזור אליכם במהירות לפגישת ייעוץ ראשונית.
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
