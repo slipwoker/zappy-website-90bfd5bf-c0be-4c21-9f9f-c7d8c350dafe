@@ -333,7 +333,7 @@
     </svg>
   </button>
 
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="0503711000" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
@@ -736,7 +736,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '050-3711000';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -853,7 +853,7 @@
         <div class="ccd-card-body">
           <h3 class="ccd-card-title">טלפון</h3>
           <p class="ccd-card-label">זמין בימי א׳–ה׳, 09:00–18:00</p>
-          <a href="tel:[business_phone]" class="ccd-card-value">[business_phone]</a>
+          <a href="tel:050-3711000" class="ccd-card-value">050-3711000</a>
         </div>
       </article>
       <article class="ccd-card">
@@ -863,7 +863,7 @@
         <div class="ccd-card-body">
           <h3 class="ccd-card-title">דוא״ל</h3>
           <p class="ccd-card-label">מענה תוך יום עסקים אחד</p>
-          <a href="mailto:[business_email]" class="ccd-card-value">[business_email]</a>
+          <a href="mailto:itai@hashay-law.com" class="ccd-card-value">itai@hashay-law.com</a>
         </div>
       </article>
       <article class="ccd-card">
@@ -873,7 +873,7 @@
         <div class="ccd-card-body">
           <h3 class="ccd-card-title">כתובת המשרד</h3>
           <p class="ccd-card-label">בתיאום מראש בלבד</p>
-          <a href="https://maps.google.com/?q=[business_address]" target="_blank" rel="noopener noreferrer" class="ccd-card-value">[business_address]</a>
+          <a href="https://maps.google.com/?q=הרצל 17, חדרה, ישראל" target="_blank" rel="noopener noreferrer" class="ccd-card-value">הרצל 17, חדרה, ישראל</a>
         </div>
       </article>
       <article class="ccd-card">
@@ -910,19 +910,19 @@
           <span class="contact-form-section__contact-icon" aria-hidden="true">
             <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.22 2.18 2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.56-.56a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"></path></svg>
           </span>
-          <a href="tel:[business_phone]" class="contact-form-section__contact-link">[business_phone]</a>
+          <a href="tel:050-3711000" class="contact-form-section__contact-link">050-3711000</a>
         </li>
         <li class="contact-form-section__contact-item">
           <span class="contact-form-section__contact-icon" aria-hidden="true">
             <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
           </span>
-          <a href="mailto:[business_email]" class="contact-form-section__contact-link">[business_email]</a>
+          <a href="mailto:itai@hashay-law.com" class="contact-form-section__contact-link">itai@hashay-law.com</a>
         </li>
         <li class="contact-form-section__contact-item">
           <span class="contact-form-section__contact-icon" aria-hidden="true">
             <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
           </span>
-          <span>[business_address]</span>
+          <span>הרצל 17, חדרה, ישראל</span>
         </li>
       </ul>
     </div>
@@ -1032,9 +1032,9 @@
           </div>
           <p class="footer-tagline">ייעוץ משפטי מקצועי, אמין ואישי לאנשים פרטיים, משפחות ועסקים.</p>
           <div class="footer-social">
-            <a href="[facebook_handle]" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="[instagram_handle]" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            <a href="[whatsapp_handle]" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" aria-label="Facebook" style="display:none !important;"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram" style="display:none !important;"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="WhatsApp" style="display:none !important;"><i class="fab fa-whatsapp"></i></a>
           </div>
         </div>
 
@@ -1064,10 +1064,10 @@
             </li>
             <li>
               <span class="contact-icon"><i class="fas fa-phone" data-element-type="icon" data-element-id="icon-1775738329065-ldlyxfd51" data-icon-type="fontawesome"></i></span>
-              <span class="contact-text"><a href="tel:[business_phone]" >[050-3711000]</a></span>
+              <span class="contact-text"><a href="tel:050-3711000" >[050-3711000]</a></span>
             </li>
-            <li><a href="/" ><span class="contact-icon"><i class="fas fa-map-marker-alt" style="cursor: pointer;"></i></span>
-              <span class="contact-text">[הרצל 17, חדרה]</span></a></li>
+            <li><a href="/" style="display:flex;align-items:flex-start;gap:inherit"><span class="contact-icon"><i class="fas fa-map-marker-alt" style="cursor: pointer;"></i></span>
+              <span class="contact-text">הרצל 17, חדרה, ישראל</span></a></li>
           </ul>
         </div>
 
