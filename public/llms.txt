@@ -1,47 +1,59 @@
-# Business — Generative Engine Optimization Map
+# איתי חשאי - משרד עורכי דין — Generative Engine Optimization Map
+
+> A professional law firm or individual attorney website with a high-quality, polished, and visually impressive design. The site should convey credibility, trustworthiness, and legal expertise, reflecting a serious and professional brand identity suited for the legal industry.
 
 ---
 
 ## Pages
 
 ### בית
-https://example.com
+https://itai-hashai-law-office.zappy5.app
 מחפשים עורך דין מנוסה שישמור על האינטרסים שלכם? משרד איתי חשאי מציע ייעוץ משפטי מקצועי, אמין ותוצאות מוכחות. צרו קשר עוד היום.
 
 ### תחומי עיסוק
-https://example.com/practice-areas
+https://itai-hashai-law-office.zappy5.app/practice-areas
 מנדל&quot;ן ועסקאות דירה בחדרה ועד ליווי משקיעים — גלו את מגוון תחומי העיסוק של משרד איתי חשאי ומצאו את המענה המשפטי המדויק לצורך שלכם.
 
 ### אודות
-https://example.com/about
+https://itai-hashai-law-office.zappy5.app/about
 איתי חשאי הוא עורך דין בעל ניסיון עשיר ומחויבות אישית לכל לקוח. גלו מה מייחד את המשרד, את הגישה המקצועית ואת הערכים שמנחים כל תיק משפטי.
 
 ### צור קשר
-https://example.com/contact
+https://itai-hashai-law-office.zappy5.app/contact
 רוצים להתייעץ עם עורך דין נדל&quot;ן למשקיעים או לקבל ליווי בעסקת דירה בחדרה? השאירו פרטים עכשיו ונחזור אליכם במהירות לפגישת ייעוץ ראשונית.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://itai-hashai-law-office.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://itai-hashai-law-office.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://itai-hashai-law-office.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About איתי חשאי - משרד עורכי דין
+A professional law firm or individual attorney website with a high-quality, polished, and visually impressive design. The site should convey credibility, trustworthiness, and legal expertise, reflecting a serious and professional brand identity suited for the legal industry.
+
+## Target Audience
+- בעלי הון גבוה
+- משקיעי נדל"ן
+- בעלי עסקים משפחתיים
+
+## Industry
+משפטים / שירותים משפטיים
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://itai-hashai-law-office.zappy5.app/sitemap.xml
+- **Robots.txt**: https://itai-hashai-law-office.zappy5.app/robots.txt
