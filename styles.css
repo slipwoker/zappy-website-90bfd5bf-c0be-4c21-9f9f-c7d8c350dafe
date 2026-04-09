@@ -6879,11 +6879,10 @@ nav.navbar .sub-menu li a:hover { color: #C8A96B !important; background-color: r
 /* === NAVBAR STYLE OVERRIDES END === */
 
 /* Legal Pages Content Styles */
-
-/* Legal Pages Content Styles */
 .legal-page-content {
-  padding: 60px 0;
+  padding: 120px 0 60px;
   min-height: 60vh;
+  color: inherit;
 }
 
 .legal-page-content .container {
