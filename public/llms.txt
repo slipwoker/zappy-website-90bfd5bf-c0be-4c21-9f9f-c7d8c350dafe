@@ -1,6 +1,4 @@
-# איתי חשאי - משרד עורכי דין — Generative Engine Optimization Map
-
-> A professional law firm or individual attorney website with a high-quality, polished, and visually impressive design. The site should convey credibility, trustworthiness, and legal expertise, reflecting a serious and professional brand identity suited for the legal industry.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -40,17 +38,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About איתי חשאי - משרד עורכי דין
-A professional law firm or individual attorney website with a high-quality, polished, and visually impressive design. The site should convey credibility, trustworthiness, and legal expertise, reflecting a serious and professional brand identity suited for the legal industry.
-
-## Target Audience
-- בעלי הון גבוה
-- משקיעי נדל"ן
-- בעלי עסקים משפחתיים
-
-## Industry
-משפטים / שירותים משפטיים
-
+## About Business
 ---
 
 # Additional Resources
