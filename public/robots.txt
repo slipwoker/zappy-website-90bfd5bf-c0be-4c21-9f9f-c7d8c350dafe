@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://itai-hashai-law-office.zappy5.app/sitemap.xml
+Sitemap: https://www.hashay-law.com/sitemap.xml

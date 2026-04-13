@@ -5,33 +5,33 @@
 ## Pages
 
 ### בית
-https://itai-hashai-law-office.zappy5.app
+https://www.hashay-law.com
 מחפשים עורך דין מנוסה שישמור על האינטרסים שלכם? משרד איתי חשאי מציע ייעוץ משפטי מקצועי, אמין ותוצאות מוכחות. צרו קשר עוד היום.
 
 ### תחומי עיסוק
-https://itai-hashai-law-office.zappy5.app/practice-areas
+https://www.hashay-law.com/practice-areas
 מנדל&quot;ן ועסקאות דירה בחדרה ועד ליווי משקיעים — גלו את מגוון תחומי העיסוק של משרד איתי חשאי ומצאו את המענה המשפטי המדויק לצורך שלכם.
 
 ### אודות
-https://itai-hashai-law-office.zappy5.app/about
+https://www.hashay-law.com/about
 איתי חשאי הוא עורך דין בעל ניסיון עשיר ומחויבות אישית לכל לקוח. גלו מה מייחד את המשרד, את הגישה המקצועית ואת הערכים שמנחים כל תיק משפטי.
 
 ### צור קשר
-https://itai-hashai-law-office.zappy5.app/contact
+https://www.hashay-law.com/contact
 רוצים להתייעץ עם עורך דין נדל&quot;ן למשקיעים או לקבל ליווי בעסקת דירה בחדרה? השאירו פרטים עכשיו ונחזור אליכם במהירות לפגישת ייעוץ ראשונית.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://itai-hashai-law-office.zappy5.app/privacy
+https://www.hashay-law.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://itai-hashai-law-office.zappy5.app/terms
+https://www.hashay-law.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://itai-hashai-law-office.zappy5.app/accessibility
+https://www.hashay-law.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -43,5 +43,5 @@ Information about WCAG compliance and accessibility features.
 
 # Additional Resources
 
-- **Sitemap**: https://itai-hashai-law-office.zappy5.app/sitemap.xml
-- **Robots.txt**: https://itai-hashai-law-office.zappy5.app/robots.txt
+- **Sitemap**: https://www.hashay-law.com/sitemap.xml
+- **Robots.txt**: https://www.hashay-law.com/robots.txt
