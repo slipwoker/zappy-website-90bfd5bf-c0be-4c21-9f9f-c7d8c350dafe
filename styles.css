@@ -7839,6 +7839,12 @@ form.contact-form > .contact-form-field, .contact-form > .contact-form-field { w
 form.contact-form .contact-input, form.contact-form .contact-textarea { width: 100% !important; box-sizing: border-box !important; }
 
 
+/* ZAPPY_NAVBAR_CTA_ALIGNMENT_FIX */
+.nav-cta-container .zappy-search-container,
+.zappy-search-container { align-self: center; }
+.nav-cta-container p { margin: 0 !important; }
+
+
 /* ZAPPY_SECTION_BG_TYPE_FIX */
 [data-zappy-bg-type="color"] { background-image: none !important; background-color: var(--zappy-bg-color, transparent) !important; }
 [data-zappy-bg-type="image"] { background-image: linear-gradient(var(--zappy-bg-overlay, rgba(0,0,0,0)), var(--zappy-bg-overlay, rgba(0,0,0,0))), var(--zappy-bg-image, none) !important; background-size: cover !important; background-position: center !important; background-repeat: no-repeat !important; }
