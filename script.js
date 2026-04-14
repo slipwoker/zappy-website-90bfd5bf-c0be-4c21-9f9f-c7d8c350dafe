@@ -1036,14 +1036,13 @@ window.onload = function() {
       }
 
       // Desktop: if the image already has zoom styles saved from the editor
-      // (position:absolute + percentage-based width), trust them.
-      // The saved percentages are proportional and correct for any container size,
-      // since zoom/crop math is based purely on aspect ratios.
-      // Recalculating here can produce different values when the container
-      // dimensions differ between preview and deployed site.
+      // (position:absolute + percentage-based width), trust them — but only
+      // when zoom >= 1.  Sites published before the zoom-out fix had wrong
+      // values baked in for zoom < 1 (used cover*zoom instead of the
+      // interpolation formula), so those must always be recalculated.
       var existingPos = (img.style.position || '').replace(/s*!importants*/g, '').trim();
       var existingW = (img.style.width || '').replace(/s*!importants*/g, '').trim();
-      if (existingPos === 'absolute' && existingW.indexOf('%') !== -1) {
+      if (existingPos === 'absolute' && existingW.indexOf('%') !== -1 && zoom >= 1) {
         wrapper.style.setProperty('overflow', 'hidden', 'important');
         wrapper.style.setProperty('position', 'relative', 'important');
         return;
@@ -1072,7 +1071,7 @@ window.onload = function() {
         hPct = 100 + t * (cover.h - 100);
       }
 
-      var op = img.style.objectPosition || window.getComputedStyle(img).objectPosition || '50% 50%';
+      var op = img.getAttribute('data-zappy-object-position') || img.style.objectPosition || window.getComputedStyle(img).objectPosition || '50% 50%';
       var pos = parseObjPos(op);
       var leftPct = (100 - wPct) * (pos.x / 100);
       var topPct = (100 - hPct) * (pos.y / 100);
