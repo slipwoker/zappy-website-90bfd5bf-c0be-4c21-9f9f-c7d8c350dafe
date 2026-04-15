@@ -9592,6 +9592,7 @@ body.accessibility-widget-visible ._access-menu {
 
 .hero-delay-section .hero-delay-stat-card {
   z-index: 10 !important;
+  background: linear-gradient(135deg, #1a2d4b 0%, #0d1f38 100%) !important;
 }
 
 .hero-delay-section .hero-delay-stat-card {
