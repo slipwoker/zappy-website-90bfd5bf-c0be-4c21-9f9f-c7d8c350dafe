@@ -8638,6 +8638,337 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
+/* AI-generated section */
+/* =============================================
+   WORK PROCESS SECTION — איתי חשאי משרד עורכי דין
+   ============================================= */
+
+.wp-howwework {
+  background-color: #0f2240;
+  background-image:
+    radial-gradient(ellipse at 10% 20%, rgba(207, 173, 88, 0.08) 0%, transparent 55%),
+    radial-gradient(ellipse at 90% 80%, rgba(31, 53, 88, 0.6) 0%, transparent 60%);
+  padding: 90px 24px 80px;
+  direction: rtl;
+  font-family: system-ui, sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Decorative background line */
+.wp-howwework::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 4px;
+  height: 100%;
+  background: var(--gradient-primary, linear-gradient(180deg, #CFAD58 0%, #C29A3F 100%));
+  opacity: 0.6;
+}
+
+/* Container */
+.wp-howwework__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ---- Header ---- */
+.wp-howwework__header {
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.wp-howwework__title {
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 0 16px;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+}
+
+.wp-howwework__title::after {
+  content: '';
+  display: block;
+  width: 64px;
+  height: 4px;
+  background: var(--gradient-primary, linear-gradient(180deg, #CFAD58 0%, #C29A3F 100%));
+  border-radius: 2px;
+  margin: 16px auto 0;
+}
+
+.wp-howwework__subtitle {
+  font-size: clamp(1rem, 2.2vw, 1.2rem);
+  color: rgba(255, 255, 255, 0.72);
+  margin: 0;
+  line-height: 1.7;
+  max-width: 620px;
+  margin-inline: auto;
+}
+
+/* ---- Steps Row ---- */
+.wp-howwework__steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  align-items: stretch;
+  position: relative;
+}
+
+/* ---- Individual Step ---- */
+.wp-howwework__step {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  position: relative;
+}
+
+.wp-howwework__step-inner {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(207, 173, 88, 0.22);
+  border-radius: 16px;
+  padding: 36px 28px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+  transition: background 0.3s ease, border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: default;
+}
+
+.wp-howwework__step-inner:hover {
+  background: rgba(207, 173, 88, 0.1);
+  border-color: rgba(207, 173, 88, 0.55);
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35), 0 0 0 1px rgba(207, 173, 88, 0.18);
+}
+
+/* ---- Step Number ---- */
+.wp-howwework__step-number {
+  font-size: 3.6rem;
+  font-weight: 900;
+  line-height: 1;
+  background: var(--gradient-primary, linear-gradient(180deg, #CFAD58 0%, #C29A3F 100%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -2px;
+  opacity: 0.9;
+  margin-bottom: -4px;
+}
+
+/* ---- Step Icon ---- */
+.wp-howwework__step-icon {
+  width: 64px;
+  height: 64px;
+  background: rgba(207, 173, 88, 0.12);
+  border: 1.5px solid rgba(207, 173, 88, 0.35);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #CFAD58;
+  flex-shrink: 0;
+  transition: background 0.3s ease, border-color 0.3s ease;
+}
+
+.wp-howwework__step-inner:hover .wp-howwework__step-icon {
+  background: rgba(207, 173, 88, 0.22);
+  border-color: rgba(207, 173, 88, 0.65);
+}
+
+.wp-howwework__step-icon svg {
+  display: block;
+}
+
+/* ---- Step Title ---- */
+.wp-howwework__step-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+  line-height: 1.35;
+}
+
+/* ---- Step Description ---- */
+.wp-howwework__step-desc {
+  font-size: 0.92rem;
+  color: rgba(255, 255, 255, 0.68);
+  margin: 0;
+  line-height: 1.75;
+  flex: 1;
+}
+
+/* ---- Connector Arrow (between steps) ---- */
+.wp-howwework__connector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  flex-shrink: 0;
+  gap: 4px;
+  padding: 0 2px;
+  position: relative;
+  z-index: 1;
+}
+
+.wp-howwework__connector-line {
+  display: block;
+  width: 2px;
+  height: 40px;
+  background: linear-gradient(180deg, rgba(207, 173, 88, 0.15) 0%, rgba(207, 173, 88, 0.5) 100%);
+  border-radius: 1px;
+}
+
+.wp-howwework__connector-arrow {
+  display: block;
+  color: #CFAD58;
+  font-size: 1.2rem;
+  opacity: 0.75;
+  transform: rotate(180deg); /* RTL: arrow points left */
+  line-height: 1;
+}
+
+/* Last step has no connector */
+.wp-howwework__step--last .wp-howwework__connector {
+  display: none;
+}
+
+/* ---- CTA Button ---- */
+.wp-howwework__cta {
+  text-align: center;
+  margin-top: 56px;
+}
+
+.wp-howwework__cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--gradient-primary, linear-gradient(180deg, #CFAD58 0%, #C29A3F 100%));
+  color: #1F3558;
+  font-family: system-ui, sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 16px 40px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 0.3px;
+  box-shadow: 0 6px 24px rgba(207, 173, 88, 0.35);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, filter 0.25s ease;
+}
+
+.wp-howwework__cta-btn:hover,
+.wp-howwework__cta-btn:focus-visible {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 36px rgba(207, 173, 88, 0.5);
+  filter: brightness(1.08);
+  outline: none;
+}
+
+.wp-howwework__cta-btn:focus-visible {
+  outline: 3px solid #CFAD58;
+  outline-offset: 3px;
+}
+
+.wp-howwework__cta-arrow {
+  font-size: 1.2rem;
+  transition: transform 0.25s ease;
+}
+
+.wp-howwework__cta-btn:hover .wp-howwework__cta-arrow {
+  transform: translateX(-4px);
+}
+
+/* =============================================
+   RESPONSIVE — Tablet (≤ 900px)
+   ============================================= */
+@media (max-width: 900px) {
+  .wp-howwework {
+    padding: 70px 20px 64px;
+  }
+
+  .wp-howwework__steps {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .wp-howwework__step {
+    flex-direction: column;
+  }
+
+  .wp-howwework__connector {
+    display: none;
+  }
+
+  .wp-howwework__step-inner {
+    padding: 30px 22px 28px;
+  }
+
+  .wp-howwework__header {
+    margin-bottom: 48px;
+  }
+}
+
+/* =============================================
+   RESPONSIVE — Mobile (≤ 560px)
+   ============================================= */
+@media (max-width: 560px) {
+  .wp-howwework {
+    padding: 56px 16px 52px;
+  }
+
+  .wp-howwework__steps {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .wp-howwework__step {
+    flex-direction: column;
+  }
+
+  .wp-howwework__connector {
+    display: none;
+  }
+
+  .wp-howwework__step-inner {
+    padding: 28px 20px 24px;
+    border-radius: 12px;
+  }
+
+  .wp-howwework__step-number {
+    font-size: 2.8rem;
+  }
+
+  .wp-howwework__step-title {
+    font-size: 1.05rem;
+  }
+
+  .wp-howwework__step-desc {
+    font-size: 0.9rem;
+  }
+
+  .wp-howwework__cta-btn {
+    width: 100%;
+    justify-content: center;
+    padding: 15px 24px;
+    font-size: 1rem;
+  }
+
+  .wp-howwework__header {
+    margin-bottom: 36px;
+  }
+
+  .wp-howwework__title::after {
+    margin: 14px auto 0;
+  }
+}
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {
