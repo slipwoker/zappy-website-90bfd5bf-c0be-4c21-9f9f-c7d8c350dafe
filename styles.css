@@ -7215,6 +7215,297 @@ body.accessibility-widget-visible ._access-menu {
   display: none !important;
 }
 
+/* AI-generated section */
+/* =============================================
+   WHY LAWYER SECTION — עורך דין איתי חשאי
+   ============================================= */
+
+.why-lawyer-section {
+  background: #f5f7fa;
+  padding: 90px 24px;
+  direction: rtl;
+  font-family: system-ui, sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Subtle decorative background pattern */
+.why-lawyer-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(180deg, #CFAD58 0%, #C29A3F 100%);
+}
+
+/* Container */
+.why-lawyer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* ---- Header ---- */
+.why-lawyer-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.why-lawyer-gold-line {
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(180deg, #CFAD58 0%, #C29A3F 100%);
+  border-radius: 2px;
+  margin: 0 auto 24px auto;
+}
+
+.why-lawyer-title {
+  font-size: 2.1rem;
+  font-weight: 800;
+  color: var(--primary, #1F3558);
+  line-height: 1.35;
+  margin: 0 0 16px 0;
+  letter-spacing: -0.3px;
+}
+
+.why-lawyer-subtitle {
+  font-size: 1.1rem;
+  color: #5a6a80;
+  line-height: 1.6;
+  margin: 0;
+  max-width: 680px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* ---- Intro Paragraph ---- */
+.why-lawyer-intro {
+  background: #ffffff;
+  border-right: 4px solid #CFAD58;
+  border-radius: 10px;
+  padding: 24px 28px;
+  margin-bottom: 52px;
+  box-shadow: 0 2px 16px rgba(31, 53, 88, 0.07);
+  max-width: 860px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.why-lawyer-intro p {
+  font-size: 1.05rem;
+  color: #2d3a4a;
+  line-height: 1.85;
+  margin: 0;
+}
+
+/* ---- Cards Grid ---- */
+.why-lawyer-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-bottom: 52px;
+}
+
+/* ---- Individual Card ---- */
+.why-lawyer-card {
+  background: #ffffff;
+  border: 1px solid rgba(207, 173, 88, 0.35);
+  border-radius: 14px;
+  box-shadow: 0 4px 20px rgba(31, 53, 88, 0.07);
+  padding: 32px 28px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 22px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  cursor: default;
+}
+
+.why-lawyer-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 32px rgba(31, 53, 88, 0.13);
+  border-color: rgba(207, 173, 88, 0.7);
+}
+
+/* ---- Card Icon ---- */
+.why-lawyer-card-icon {
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(207, 173, 88, 0.08);
+  border-radius: 50%;
+  padding: 4px;
+  transition: background 0.25s ease;
+}
+
+.why-lawyer-card:hover .why-lawyer-card-icon {
+  background: rgba(207, 173, 88, 0.16);
+}
+
+.why-lawyer-card-icon svg {
+  width: 44px;
+  height: 44px;
+  display: block;
+}
+
+/* ---- Card Body ---- */
+.why-lawyer-card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.why-lawyer-card-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--primary, #1F3558);
+  margin: 0;
+  line-height: 1.3;
+}
+
+.why-lawyer-card-desc {
+  font-size: 0.97rem;
+  color: #4a5a70;
+  line-height: 1.75;
+  margin: 0;
+}
+
+/* ---- CTA Button ---- */
+.why-lawyer-cta {
+  text-align: center;
+}
+
+.why-lawyer-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(180deg, #CFAD58 0%, #C29A3F 100%);
+  color: #ffffff;
+  font-family: system-ui, sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 16px 36px;
+  border-radius: 8px;
+  box-shadow: 0 4px 18px rgba(194, 154, 63, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+  letter-spacing: 0.2px;
+}
+
+.why-lawyer-cta-btn:hover,
+.why-lawyer-cta-btn:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(194, 154, 63, 0.45);
+  filter: brightness(1.07);
+  outline: none;
+}
+
+.why-lawyer-cta-btn:focus-visible {
+  outline: 3px solid #CFAD58;
+  outline-offset: 3px;
+}
+
+.why-lawyer-cta-arrow {
+  font-size: 1.2rem;
+  line-height: 1;
+  transition: transform 0.2s ease;
+}
+
+.why-lawyer-cta-btn:hover .why-lawyer-cta-arrow {
+  transform: translateX(-4px);
+}
+
+/* =============================================
+   RESPONSIVE — Tablet
+   ============================================= */
+@media (max-width: 900px) {
+  .why-lawyer-title {
+    font-size: 1.75rem;
+  }
+
+  .why-lawyer-card {
+    padding: 26px 22px;
+    gap: 18px;
+  }
+
+  .why-lawyer-card-icon {
+    width: 56px;
+    height: 56px;
+  }
+
+  .why-lawyer-card-icon svg {
+    width: 38px;
+    height: 38px;
+  }
+}
+
+/* =============================================
+   RESPONSIVE — Mobile
+   ============================================= */
+@media (max-width: 640px) {
+  .why-lawyer-section {
+    padding: 60px 16px;
+  }
+
+  .why-lawyer-title {
+    font-size: 1.45rem;
+  }
+
+  .why-lawyer-subtitle {
+    font-size: 1rem;
+  }
+
+  .why-lawyer-intro {
+    padding: 20px 18px;
+    border-right-width: 3px;
+  }
+
+  .why-lawyer-intro p {
+    font-size: 0.97rem;
+  }
+
+  .why-lawyer-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-bottom: 36px;
+  }
+
+  .why-lawyer-card {
+    padding: 22px 18px;
+    gap: 16px;
+  }
+
+  .why-lawyer-card-icon {
+    width: 52px;
+    height: 52px;
+  }
+
+  .why-lawyer-card-icon svg {
+    width: 34px;
+    height: 34px;
+  }
+
+  .why-lawyer-card-title {
+    font-size: 1.05rem;
+  }
+
+  .why-lawyer-card-desc {
+    font-size: 0.93rem;
+  }
+
+  .why-lawyer-cta-btn {
+    font-size: 0.97rem;
+    padding: 14px 24px;
+    width: 100%;
+    justify-content: center;
+  }
+}
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {
