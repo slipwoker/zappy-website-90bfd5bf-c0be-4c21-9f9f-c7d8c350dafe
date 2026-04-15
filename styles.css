@@ -9594,6 +9594,10 @@ body.accessibility-widget-visible ._access-menu {
   z-index: 10 !important;
 }
 
+.hero-delay-section .hero-delay-stat-card {
+  background: var(--background-color) !important;
+}
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {
