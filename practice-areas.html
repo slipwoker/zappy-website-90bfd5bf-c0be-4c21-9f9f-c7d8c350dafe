@@ -777,39 +777,38 @@
   flex-shrink: 0;
 }
 
-/* ─── Grid ─── */
 .practice-areas-faq-section .faq-grid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 0;
   border: 1px solid #DDD3C2;
   direction: rtl;
+  max-width: 1100px;
 }
 
 @media (min-width: 768px) {
   .practice-areas-faq-section .faq-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+  grid-template-columns: repeat(3, 1fr);
+}
 }
 
 @media (min-width: 1024px) {
   .practice-areas-faq-section .faq-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
+  grid-template-columns: repeat(3, 1fr);
+}
 }
 
-/* ─── Cards ─── */
 .practice-areas-faq-section .faq-card {
   position: relative;
   background: #FBF9F5;
-  padding: 36px 32px 40px;
+  padding: 24px 24px 28px;
   border: 1px solid #DDD3C2;
   margin: -1px 0 0 -1px;
   overflow: hidden;
   transition: background 0.25s ease, box-shadow 0.25s ease;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 10px;
 }
 
 .practice-areas-faq-section .faq-card:hover {
@@ -828,10 +827,9 @@
   box-shadow: 0 12px 40px rgba(31, 53, 88, 0.3);
 }
 
-/* Number badge */
 .practice-areas-faq-section .faq-card-number {
   font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
-  font-size: 2.8rem;
+  font-size: 1.8rem;
   font-weight: 700;
   line-height: 1;
   color: rgba(200, 169, 107, 0.22);
@@ -859,11 +857,11 @@
 
 .practice-areas-faq-section .faq-card-title {
   font-family: 'Cormorant Garamond', 'Playfair Display', 'David Libre', Georgia, serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 1.35;
   color: var(--text-dark);
-  margin: 0 0 12px;
+  margin: 0 0 8px;
   text-align: right;
 }
 
@@ -872,8 +870,8 @@
 }
 
 .practice-areas-faq-section .faq-card-text {
-  font-size: 0.9375rem;
-  line-height: 1.8;
+  font-size: 0.875rem;
+  line-height: 1.7;
   color: var(--text-muted);
   margin: 0;
   text-align: right;
@@ -948,8 +946,8 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .practice-areas-faq-section .faq-grid {
-    grid-template-columns: repeat(2, 1fr) !important;
-  }
+  grid-template-columns: repeat(3, 1fr) !important;
+}
 }
 </style>
     <link rel="stylesheet" href="/styles.css">
