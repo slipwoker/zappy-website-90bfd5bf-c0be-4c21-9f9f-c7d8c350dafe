@@ -4495,12 +4495,17 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 .practice-areas-faq-section .faq-column {
   display: flex;
   flex-direction: column;
+  gap: 0;
 }
 
 .practice-areas-faq-section .faq-item {
   padding: 36px 0;
   border-bottom: 1px solid #DDD3C2;
   position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .practice-areas-faq-section .faq-column .faq-item:first-child {
