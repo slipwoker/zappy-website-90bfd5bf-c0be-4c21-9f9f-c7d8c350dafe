@@ -9665,6 +9665,15 @@ body.accessibility-widget-visible ._access-menu {
 .site-footer .contact-list a:hover,
 .site-footer .footer-legal a:hover,
 .site-footer .footer-bottom a:hover { color: #C8A96B !important; opacity: 1 !important; }
+
+#zappy-section-2 .faq-content {
+  max-height: none !important;
+  overflow: visible !important;
+  opacity: 1 !important;
+  padding-top: unset !important;
+  padding-bottom: unset !important;
+  transition: none !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
