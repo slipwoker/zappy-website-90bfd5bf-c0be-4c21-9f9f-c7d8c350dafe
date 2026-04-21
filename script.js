@@ -733,6 +733,42 @@ window.onload = function() {
 })();
 
 
+/* Added Component Script */
+(function () {
+  const items = document.querySelectorAll('.faq-general-item');
+
+  items.forEach(function (item) {
+    const btn = item.querySelector('.faq-general-question');
+    if (!btn) return;
+
+    btn.addEventListener('click', function () {
+      const isActive = item.classList.contains('active');
+
+      // Close all open items in the same category list
+      const parentList = item.closest('.faq-general-list');
+      if (parentList) {
+        parentList.querySelectorAll('.faq-general-item.active').forEach(function (openItem) {
+          if (openItem !== item) {
+            openItem.classList.remove('active');
+            const openBtn = openItem.querySelector('.faq-general-question');
+            if (openBtn) openBtn.setAttribute('aria-expanded', 'false');
+          }
+        });
+      }
+
+      // Toggle current item
+      if (isActive) {
+        item.classList.remove('active');
+        btn.setAttribute('aria-expanded', 'false');
+      } else {
+        item.classList.add('active');
+        btn.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+})();
+
+
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
   try {
