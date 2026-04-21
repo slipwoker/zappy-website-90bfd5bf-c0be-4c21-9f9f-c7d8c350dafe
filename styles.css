@@ -9674,6 +9674,16 @@ body.accessibility-widget-visible ._access-menu {
   padding-bottom: unset !important;
   transition: none !important;
 }
+
+.faq-faq-section .faq-list .faq-item .faq-content,
+.faq-faq-section .faq-grid .faq-item .faq-content {
+  max-height: none !important;
+  overflow: visible !important;
+  opacity: 1 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  transition: none !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,

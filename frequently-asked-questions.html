@@ -407,7 +407,20 @@
     
     
     
-    <style id="zappy-ai-page-styles">.faq-hero-section {
+    <style id="zappy-ai-page-styles">
+/* Force FAQ content visible — runtime script sets max-height:0/opacity:0 on accordion items */
+.faq-faq-section .faq-content {
+  max-height: none !important;
+  overflow: visible !important;
+  opacity: 1 !important;
+  padding-top: unset !important;
+  padding-bottom: unset !important;
+  transition: none !important;
+}
+.faq-faq-section .faq-question {
+  cursor: default !important;
+}
+.faq-hero-section {
   background-color: #FAF8F4;
   background-image: linear-gradient(180deg, #FBF9F5 0%, #F2EEE7 100%);
   color: var(--text-dark);
