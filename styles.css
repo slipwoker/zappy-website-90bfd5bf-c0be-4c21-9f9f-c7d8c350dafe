@@ -9962,6 +9962,16 @@ body.accessibility-widget-visible ._access-menu {
     height: 28px;
   }
 }
+
+@media (max-width: 768px) {
+.hero-delay-section .hero-delay-content {
+  order: -1 !important;
+}
+
+.hero-delay-section .hero-delay-image-col {
+  order: 1 !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
