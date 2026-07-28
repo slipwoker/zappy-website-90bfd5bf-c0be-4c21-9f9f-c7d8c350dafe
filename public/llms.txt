@@ -1,4 +1,6 @@
-# Business — Generative Engine Optimization Map
+# איתי חשאי - משרד עורכי דין — Generative Engine Optimization Map
+
+> A professional law firm or individual attorney website with a high-quality, polished, and visually impressive design. The site should convey credibility, trustworthiness, and legal expertise, reflecting a serious and professional brand identity suited for the legal industry.
 
 ---
 
@@ -48,12 +50,44 @@ Information about WCAG compliance and accessibility features.
 
 ---
 
-# Business Context (for LLM understanding)
+## How to Contact Us
 
-## About Business
+- Email: itai@hashay-law.com
+- Phone: 050-3711000
+- Phone (tel): tel:0503711000
+- Address: הרצל 17, חדרה, ישראל
+
+### Contact form
+- URL: https://www.hashay-law.com/contact
+- Endpoint: https://www.hashay-law.com/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text, required)
+  - `email` (email, required)
+  - `phone` (tel)
+  - `message` (textarea, required)
+  - `privacy_consent` (checkbox, required)
+
 ---
 
-# Additional Resources
+# Business Context (for LLM understanding)
 
-- **Sitemap**: https://www.hashay-law.com/sitemap.xml
-- **Robots.txt**: https://www.hashay-law.com/robots.txt
+## About איתי חשאי - משרד עורכי דין
+A professional law firm or individual attorney website with a high-quality, polished, and visually impressive design. The site should convey credibility, trustworthiness, and legal expertise, reflecting a serious and professional brand identity suited for the legal industry.
+
+## Target Audience
+- בעלי הון גבוה
+- משקיעי נדל"ן
+- בעלי עסקים משפחתיים
+
+## Industry
+משפטים / שירותים משפטיים
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://www.hashay-law.com/sitemap.xml
+- Robots: https://www.hashay-law.com/robots.txt
+- Flattened page text (for LLMs): https://www.hashay-law.com/llms-full.txt
